@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="darkmode.css">
-    <title>Dark Mode Switch</title>
+    <title>Smart Home</title>
+    <link rel="icon" type="images/x-icon" href="img\84-844329_smart-vector-home-banner-royalty-free-smart-home-2304598100" />
 </head>
 <body>
     <header>
@@ -13,17 +14,45 @@
         <div class="topnav">
             <input type="checkbox" id="dark-mode">
             <label for="dark-mode" class="dark-mode"></label>
+            <h1>Smart Home Dashboard</h1>
             </div>
-
-           <!--<button class="button-64" class="button-64" role="button" id="darkModeButton">Toggle Dark Mode</button>        
-                  </div> --> 
-            
-        <h1>Dark Mode Switch</h1>
     </header>
     <main>
-        <p>This is an example webpage that demonstrates a dark mode switch.</p>
-
+        <p>Welcome to SmartHome!</p>
+        <div class="dashboard" id="dashboard">
+            <div class="section">
+                <div class="widget" id="widget1" style="height:100%">
+                    <h2 style="margin-bottom: 80px;">Personal Information</h2>
+                    <img src="img\user" style="height: 30%; display: block; 
+                        margin-left: auto; margin-right: auto; width: 50%; margin-bottom: 60px;">
+                    <h2 style="margin-bottom: 30px;">Username</h2>
+                    <h3 style="margin-bottom: 10px;">Favourites</h3>
+                    <h4 class="temperature">Temperature:</h4>
+                    <h4 class="humidity">Humidity:</h4>
+                    <h4 class="lightintensity">Light Intensity:</h4>
+                </div>
+            </div>
+            <div class="section">
+                <div class="widget" id="widget2" style="height:100%">
+                    <h2>Widget 2</h2>
+                    <p>Here will be temperature humidity and fan.</p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="widget" id="widget3" style="height:50%">
+                    <h2>Widget 3</h2>
+                    <p>Light intensity.</p>
+                </div>
+                <div class="widget" id="widget4" style="height:50%">
+                    <h2>Widget 4</h2>
+                    <p>Devices around.</p>
+                </div>
+            </div>
+        </div>
     </main>
+
+
+
     <script src="darkmode.js"></script>
 </body>
 </html>
